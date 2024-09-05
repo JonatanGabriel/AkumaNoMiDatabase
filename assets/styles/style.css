@@ -1,0 +1,111 @@
+/* Reseta algumas propriedades padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    background-image: url(/assets/imagens/fundo1.jpg); /* Adiciona a imagem de fundo */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0;
+    padding: 0; /* Espaçamento interno */
+}
+
+/* Estiliza o header */
+header h1 {
+    font-size: 2.9rem; /* Tamanho da fonte */
+    color: #c01919; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    margin-bottom: 1rem; /* Espaçamento abaixo do título */
+}
+
+/* Estiliza as seções da página */
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    margin-bottom: 3rem;
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 28rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 0.5rem; /* Espaçamento abaixo dos inputs */
+    color: #030303; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura 
+    total */
+    text-align: center; /* Alinha o texto ao centro */
+    font-weight: bold;
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #141414; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    font-size: 1.1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Transição suave para o efeito */
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+section button:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do botão em 5% */
+    background-color: #c01919; /* Cor de fundo um pouco mais escura no hover */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo com 80% de opacidade */
+    color: #c2c3c5; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 1rem 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estiliza a mensagem de erro */
+#mensagemErro {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-weight: bold; /* Adiciona o negrito */
+}
+
+/* Classe para esconder a mensagem de erro */
+.hidden {
+    display: none;
+}
+
+/* Input com erro */
+.input-error {
+    border: 2px solid red;
+}
+
+/* ----------------------------------------------------------------------- */
+
