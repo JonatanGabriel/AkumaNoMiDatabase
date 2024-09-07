@@ -63,7 +63,7 @@ const akumaNoMiDB = {
     ],
     zoan: [
         {
-            nome: "Hito Hito no Mi-Modelo Nika",
+            nome: "Hito Hito no Mi Modelo Nika",
             subtipo: "Fruta Humano, Modelo: Deus do Sol Nika",
             descricao: "Permite que o usuário se transforme no lendário guerreiro Nika, com habilidades únicas.",
             usuario: "Monkey D. Luffy",
