@@ -11,11 +11,11 @@ document.getElementById('akumaForm').addEventListener('submit', function(event) 
 
     // Verifica a entrada e redireciona para a página correta
     if (tipoAkuma === 'logia') {
-        window.location.href = 'logia.html';
+        window.location.href = '/pages/logia.html';
     } else if (tipoAkuma === 'zoan') {
-        window.location.href = 'zoan.html';
+        window.location.href = '/pages/zoan.html';
     } else if (tipoAkuma === 'paramecia') {
-        window.location.href = 'paramecia.html';
+        window.location.href = '/pages/paramecia.html';
     } else {
         // Exibe a mensagem de erro se a entrada for inválida
         mensagemErro.classList.remove('hidden');
