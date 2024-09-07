@@ -1,3 +1,4 @@
+/* Define margens e preenchimentos padrão para todos os elementos, além de definir o box-sizing */
 * {
     margin: 0;
     padding: 0;
@@ -16,34 +17,34 @@ body {
     align-items: center; /* Centraliza os itens horizontalmente */
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 100vh; /* Garante que o corpo tenha no mínimo a altura da tela */
 }
 
 /* Estiliza o header */
 .header {
-    text-align: center;
-    margin-bottom: 80px;
+    text-align: center; /* Centraliza o texto no header */
+    margin-bottom: 80px; /* Espaçamento abaixo do header */
 }
 
-/* Estiliza os títulos h1 */
+/* Estiliza os títulos h1 no header */
 .header h1 {
     font-size: 4rem; /* Tamanho da fonte */
     color: #c01919; /* Cor do texto */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
-    font-weight: bold;
+    font-weight: bold; /* Peso da fonte */
     margin-top: 3rem; /* Margem superior para espaço acima do elemento */
 }
 
 /* Estiliza o container principal */
 .main-container {
-    display: flex;
+    display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
     width: 100%;
-    max-width: 1200px; /* Define um limite para a largura */
+    max-width: 1200px; /* Define um limite para a largura do container */
     padding: 0 1rem; /* Espaçamento lateral */
-    flex: 1;
+    flex: 1; /* Faz o container ocupar o restante do espaço disponível */
 }
 
 /* Estiliza as seções da página */
@@ -57,12 +58,13 @@ section {
 
 /* Estiliza a descrição do tipo Logia */
 .descricao-logia {
-    font-size: 1.2rem;
-    color: #222831;
-    text-align: center;
-    margin-bottom: 4rem;
+    font-size: 1.2rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 4rem; /* Espaçamento abaixo da descrição */
 }
 
+/* Estiliza os parágrafos com a classe p1 */
 .p1 {
     font-size: 2rem; /* Tamanho da fonte */
     font-weight: bold; /* Peso da fonte */
@@ -72,6 +74,7 @@ section {
     line-height: 1.2; /* Altura da linha para melhorar a legibilidade */
 }
 
+/* Estiliza os parágrafos com a classe p2 */
 .p2{
     font-size: 1.5rem; /* Tamanho da fonte */
     font-weight: bold; /* Peso da fonte */
@@ -83,48 +86,49 @@ section {
 
 /* Estiliza os botões */
 button {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    position: absolute; /* Posiciona o botão de forma absoluta */
+    top: 20px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda */
     z-index: 999; /* Garante que o botão fique acima de outros elementos */
-    background-color: #706f6f; /* Cor de fundo verde */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-weight: bold;
+    background-color: #706f6f; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    cursor: pointer; /* Altera o cursor para pointer ao passar sobre o botão */
+    font-weight: bold; /* Texto em negrito */
 }
 
 /* Efeito ao passar o mouse sobre o botão */
 button:hover {
     transform: scale(1.05); /* Aumenta o tamanho do botão em 5% */
-    background-color: #c01919; /* Cor de fundo um pouco mais escura no hover */
+    background-color: #c01919; /* Cor de fundo mais escura no hover */
 }
-
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #FFFFFF;
-    border-radius: 0.6rem;
-    padding: 1rem;
-    margin-bottom: 1.4rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 800px;
-    height: 120px;
+    display: flex; /* Usa Flexbox para layout */
+    justify-content: space-between; /* Espaça os itens igualmente */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    background: #FFFFFF; /* Cor de fundo do item */
+    border-radius: 0.6rem; /* Arredonda os cantos do item */
+    padding: 1rem; /* Espaçamento interno do item */
+    margin-bottom: 1.4rem; /* Espaçamento abaixo do item */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao item */
+    width: 800px; /* Largura do item */
+    height: 120px; /* Altura do item */
 }
 
+/* Estiliza a seção de informações dentro dos itens de resultado */
 .info {
-    flex: 1;
+    flex: 1; /* Faz com que a seção de informações ocupe o espaço disponível */
 }
 
+/* Estiliza a imagem da fruta */
 .fruit-image {
-    width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: auto;
-    border-radius: 10px;
+    width: 100px; /* Largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Arredonda os cantos da imagem */
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
@@ -140,7 +144,7 @@ button:hover {
     text-align: center; /* Alinha o texto ao centro */
     padding: 1rem 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: fixed; /* Posiciona o rodapé */
+    position: fixed; /* Posiciona o rodapé fixo */
     bottom: 0; /* Alinha ao fundo da página */
     left: 0; /* Alinha à esquerda da página */
     font-size: 1rem; /* Tamanho da fonte */

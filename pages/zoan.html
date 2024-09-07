@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+<!-- Declaração do tipo de documento HTML e define a linguagem como português do Brasil -->
 <head>
     <meta charset="UTF-8">
+    <!-- Define o conjunto de caracteres como UTF-8 para suporte a caracteres especiais -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faz o layout se ajustar a diferentes tamanhos de tela, especialmente em dispositivos móveis -->
     <link rel="stylesheet" href="/assets/styles/zoan.css">
+    <!-- Inclui o arquivo CSS específico para a página das frutas Zoan -->
     <title>Frutas Zoan</title>
+    <!-- Define o título da página, que aparece na aba do navegador -->
 </head>
-
 <body>
+    <!-- Início do corpo da página onde todo o conteúdo visível será colocado -->
     <header class="header">
+        <!-- Cabeçalho da página com uma classe "header" para estilização -->
         <h1>Akuma no Mi: Zoan</h1>
+        <!-- Título principal da página -->
     </header>
-
     <main class="main-container">
+        <!-- Início da seção principal do conteúdo, com uma classe "main-container" para organizar o layout -->
         <section class="descricao-zoan">
+            <!-- Seção de descrição das frutas Zoan com uma classe para estilização -->
             <p class="p1">As frutas do tipo Zoan permitem que seus usuários se transformem em um animal, humano ou uma
                 combinação dos dois. Elas são conhecidas por conferirem ao usuário habilidades físicas aprimoradas.</p>
+            <!-- Primeiro parágrafo explicando as características das frutas do tipo Zoan -->
             <p class="p2">Abaixo estão listadas as 10 Akuma no Mi do tipo Zoan mais poderosas!</p>
+            <!-- Segundo parágrafo explicando que uma lista das frutas Zoan será exibida em seguida -->
         </section>
-
         <section class="resultados-pesquisa">
+            <!-- Seção que conterá os resultados da pesquisa das frutas Zoan, com uma classe específica -->
             <div id="lista-zoan">
+                <!-- Div onde os resultados das frutas Zoan serão inseridos via JavaScript -->
                 <!-- Os resultados serão inseridos aqui via JavaScript -->
             </div>
         </section>
-
         <button onclick="voltar()">Voltar à página inicial</button>
+        <!-- Botão que, ao ser clicado, chama a função "voltar" que provavelmente leva o usuário de volta à página inicial -->
     </main>
-
     <footer class="footer">
+        <!-- Rodapé da página com uma classe "footer" para estilização -->
         <p>2024 - Akuma no Mi de One Piece - Todos os direitos reservados</p>
+        <!-- Texto no rodapé com direitos reservados -->
     </footer>
-
     <script src="/js/akumaDB.js"></script>
+    <!-- Inclusão de um arquivo JavaScript que provavelmente contém os dados das frutas Akuma no Mi -->
     <script src="/js/zoan.js"></script>
+    <!-- Arquivo JavaScript específico para a funcionalidade da página das frutas Zoan -->
     <script src="/js/app.js"></script>
+    <!-- Arquivo JavaScript geral para a aplicação -->
 </body>
-
 </html>

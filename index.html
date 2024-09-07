@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<!-- Declara o tipo de documento como HTML5 e define o idioma do conteúdo como português do Brasil -->
 <head>
     <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres para UTF-8, que suporta praticamente todos os caracteres, inclusive acentos -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a viewport para garantir que o layout seja responsivo em diferentes dispositivos -->
     <link rel="stylesheet" href="assets/styles/style.css">
-    <title>ONE PIECE</title>
+    <!-- Vincula o arquivo CSS externo para estilização da página -->
+    <title>ONE PIECE</title> <!-- Define o título da página que será exibido na aba do navegador -->
 </head>
 <body>
-    <header>
-        <h1>Akuma no Mi e seus Segredos</h1>
+    <header> <!-- Cabeçalho da página, geralmente usado para incluir títulos e navegação -->
+        <h1>Akuma no Mi e seus Segredos</h1> <!-- Título principal da página -->
     </header>
-    <main>
-        <section>
-            <form id="akumaForm">
+    <main> <!-- A tag <main> delimita o conteúdo principal da página -->
+        <section> <!-- Seção para agrupar o formulário de pesquisa -->
+            <form id="akumaForm"> <!-- Formulário que contém o campo de entrada e o botão para buscar Akuma no Mi -->
                 <input type="text" id="tipoAkuma" placeholder="Escolha entre: Logia, Zoan ou Paramecia" required>
-                <button type="submit">Pesquisar</button>
+                <!-- Campo de entrada de texto com um placeholder explicativo e atributo required para validar o preenchimento -->
+                <button type="submit">Pesquisar</button> <!-- Botão de submissão do formulário -->
             </form>
             <p id="mensagemErro" class="hidden">Tipo inválido. Por favor, tente novamente.</p>
+            <!-- Parágrafo que exibe uma mensagem de erro caso o usuário insira um tipo inválido de Akuma no Mi, inicialmente oculto -->
         </section>
     </main>
-    <footer>
+    <footer> <!-- Rodapé da página, onde são exibidas informações adicionais -->
         <p>2024 - Akuma no Mi de One Piece - Todos os direitos reservados </p>
+        <!-- Texto informando o ano e os direitos reservados -->
         <p>Entre em contato <a href="https://www.linkedin.com/in/jonatan-gabriel1711/" target="_blank">Linkedin</a></p>
+        <!-- Link para o perfil do LinkedIn com abertura em nova aba -->
     </footer>
     <script src="/js/app.js"></script>
+    <!-- Inclui um arquivo JavaScript externo para funcionalidades interativas da página -->
 </body>
 </html>

@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define a codificação de caracteres como UTF-8 e ajusta a página para funcionar bem em diferentes dispositivos -->
     <link rel="stylesheet" href="/assets/styles/paramecia.css">
-    <title>Frutas Paramecia</title>
+    <!-- Vincula a folha de estilos específica para esta página, estilizando elementos relacionados às frutas Paramecia -->
+    <title>Frutas Paramecia</title> <!-- Título da página que aparecerá na aba do navegador -->
 </head>
-
 <body>
     <header class="header">
-        <h1>Akuma no Mi: Paramecia</h1>
+        <h1>Akuma no Mi: Paramecia</h1> <!-- Cabeçalho da página com o título central sobre as frutas Paramecia -->
     </header>
-
     <main class="main-container">
         <section class="descricao-paramecia">
-            <p class="p1">As frutas do tipo Paramecia conferem ao usuário habilidades físicas ou químicas que não se encaixam nas categorias de Zoan ou Logia. Elas permitem transformações ou poderes únicos.</p>
+            <p class="p1">As frutas do tipo Paramecia conferem ao usuário habilidades físicas ou químicas que não se
+                encaixam nas categorias de Zoan ou Logia. Elas permitem transformações ou poderes únicos.</p>
+            <!-- Descrição sobre o que são as frutas do tipo Paramecia -->
             <p class="p2">Abaixo estão listadas as 10 Akuma no Mi do tipo Paramecia mais poderosas!</p>
+            <!-- Texto introduzindo a lista de frutas que será exibida -->
         </section>
-
         <section class="resultados-pesquisa">
             <div id="lista-paramecia">
                 <!-- Os resultados serão inseridos aqui via JavaScript -->
+                <!-- Este div será populado dinamicamente com a lista das frutas Paramecia via código JavaScript -->
             </div>
         </section>
-
         <button onclick="voltar()">Voltar à página inicial</button>
+        <!-- Botão que aciona a função 'voltar()', provavelmente para redirecionar o usuário para a página inicial -->
     </main>
-
     <footer class="footer">
         <p>2024 - Akuma no Mi de One Piece - Todos os direitos reservados</p>
+        <!-- Rodapé com uma breve mensagem de direitos reservados -->
     </footer>
-
     <script src="/js/akumaDB.js"></script>
-    <script src="/js/paramecia.js"></script>
-    <script src="/js/app.js"></script>
+    <!-- Script que provavelmente contém o banco de dados com as informações das frutas Akuma no Mi -->
+    <script src="/js/paramecia.js"></script> <!-- Script específico para manipular a exibição das frutas Paramecia -->
+    <script src="/js/app.js"></script> <!-- Script com funcionalidades gerais do aplicativo -->
 </body>
-
 </html>
