@@ -58,6 +58,11 @@ Sinta-se à vontade para explorar, modificar e, claro, se divertir com esse proj
 Veja o projeto funcionando diretamente [aqui!](https://main--jonatangabrielcostadasilva.netlify.app/)
 
 ---
+![Tela inicial](https://github.com/user-attachments/assets/cc6584af-5a2c-46d0-89c9-36e8fe00c96d)
+![Logia](https://github.com/user-attachments/assets/ede48ad3-a6c8-4ac7-b961-fea99e2675c5)
+![Zoan](https://github.com/user-attachments/assets/826a1535-b98d-4597-9fad-3cf8fe76e0d4)
+![Paramecia](https://github.com/user-attachments/assets/d1289880-b028-451b-894b-31e678124b6a)
+
 
 
 ### Tags
